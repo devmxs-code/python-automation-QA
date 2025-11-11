@@ -1,8 +1,8 @@
 # language: pt
-Funcionalidade: Acessar o site do Formulário de Contato
+Funcionalidade: Preencher formulário de contato
 
-  Cenário: Usuário acessa o site do formulário com sucesso e preenche o formulário
+  Cenário: Preencher e enviar formulário de contato
     Dado que o navegador "edge" está aberto
     Quando eu preencher os dados no formulário de contato
-    Então devo ver o formulário de contato carregado com sucesso
-    E devo submeter o formulário e ver a confirmação de envio
+    Então devo ver o formulário carregado
+    E devo submeter o formulário
